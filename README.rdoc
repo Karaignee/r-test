@@ -1,0 +1,6 @@
+== README
+
+* Trying our R lang in a rails app.
+* For later use in admin dashboard to work with data which is currently too slow to retrieve through active record queries.
+* Using this for learning R: datacamp.com/courses/free-introduction-to-r
+* And this for using r with rails: https://quickleft.com/blog/running-r-script-ruby-rails-app/
