@@ -6,3 +6,12 @@ task :run_ruby => :environment do
   output = `ruby #{filepath}`
   puts output
 end
+
+
+task :hello_world_r => :environment do
+  puts "running R!"
+
+  filepath = Rails.root.join('lib', 'external_scripts', 'hello_world.R')
+  output = `Rscript --vanilla #{filepath}`
+  puts output
+end
